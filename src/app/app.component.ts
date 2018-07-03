@@ -1,3 +1,4 @@
+import { User } from './user';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,9 +8,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Tasks';
-  tasks = [];
-  task = "";
-  add():void{
-   this.tasks.push(this.task);
+  upperText: string = "texto em uppercase";
+  lowerText: string = "TEXTO EM LOWERCASE"
+  percentValue: number = 0.5;
+  date: Date = new Date();
+  money: number = 598;
+  isAdmin:boolean = true;
+  profile:number = 3; 
+  user: User = {
+    name: "Paulo",
+    age: 25
   }
 }
