@@ -19,4 +19,6 @@ export class AppComponent {
     name: "Paulo",
     age: 25
   }
+  name:"";
+  email:""
 }

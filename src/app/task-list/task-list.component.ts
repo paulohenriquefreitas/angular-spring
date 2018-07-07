@@ -9,7 +9,7 @@ export class TaskListComponent  {
   tasks = [];
   task = "";
   isAdmin = true;
-  profile:number = 2; 
+  
   add():void{
    this.tasks.push(this.task);
   }
